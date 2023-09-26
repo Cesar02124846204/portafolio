@@ -19,7 +19,8 @@ html{
   /* scroll snap */
 .servicios,
 .navegacion-principal,
-.formulario{
+.formulario, 
+.apartado-final{
     scroll-snap-align:center ;
     scroll-snap-stop: always;
 }
@@ -269,4 +270,14 @@ h1,h2,h3{
 .footer{
     text-align: center;
 }
-
+/* contacto */
+.contacto{
+    text-align: center;
+}
+.margen{
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    margin-block-end: 5rem;
+    
+}
